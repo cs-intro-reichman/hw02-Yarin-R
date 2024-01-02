@@ -19,10 +19,8 @@ public class DamkaBoard {
 				row += "* ";
 			}
 		}
-		// Printing the first row (to make sure that the output is the same as the question asks).
-		System.out.println(row + " ");
 		// printing the rest of the rows in the way that was asked for in teh question.
-		for (int i = 1; i < len; i++){
+		for (int i = 0; i < len; i++){
 			if (i % 2 == 0) {
 				System.out.println(row + " ");
 			}
