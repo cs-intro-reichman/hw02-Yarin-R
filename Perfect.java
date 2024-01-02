@@ -25,7 +25,7 @@ public class Perfect {
 		// Checking if the nmber we got from the user is indeed a perfect number.
 		if (sum == num) {
 			// Printing a message to show tha the number is perfect with a proof as the question asks.
-			System.out.println(num + " is a perfect number since " + divisors);
+			System.out.println(num + " is a perfect number since " + num + " = " + divisors);
 		}
 		else{
 			// Printing a message to show tha the number is not perfect as the question asks.
