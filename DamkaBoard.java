@@ -19,7 +19,7 @@ public class DamkaBoard {
 				row += "* ";
 			}
 		}
-		// printing the rest of the rows in the way that was asked for in teh question.
+		// printing the rows in the way that was asked for in thr question.
 		for (int i = 0; i < len; i++){
 			if (i % 2 == 0) {
 				System.out.println(row + " ");
